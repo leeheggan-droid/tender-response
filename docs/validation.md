@@ -1,4 +1,76 @@
-# Validation record — 27 October 2026
+# Validation record
+
+## v0.2.0 audit follow-up — 27 October 2026
+
+The audit fixes are package checks, a shorter entry point with conditional
+playbook reading, a compact receipt using one private ledger, and a supplied-
+feedback correction loop. The entry point fell from 789 to 547 whitespace words
+after the final qualification clarification; it retains active retrieval and
+claim controls. No runtime package dependency was added.
+
+### Package regression and release checks
+
+- All **14 unit tests passed** locally. The added checks cover required skill
+  metadata, linked resources staying inside the package, required distribution
+  files and readable DOCX/XLSX archive/XML parts.
+- Repeated the audit's incomplete-distribution case: the counter tests passed,
+  but the new package tests correctly failed with missing SKILL.md, README,
+  licence and linked fixture resources. The complete checkout passed.
+- The skill-creator validator reported **Skill is valid!** for the final entry
+  point. The CI required-field checks do not implement a full YAML parser.
+
+### Revised short-answer trial
+
+A fresh Codex agent searched the original six-file Markdown corpus and produced
+a 75-word answer. Author inspection caught a dropped 'recorded' qualification in
+its incident result. The source-strength instruction was clarified, then another
+fresh-agent trial produced **75 words**, retained 'incidents recorded', covered
+the requested elements and used a four-bullet receipt without an extra working
+pack. These are small behavioural trials, not a statistical improvement claim.
+
+### Actual mixed-format and feedback trial
+
+The [mixed-format pack](../evals/mixed-format/README.md) was read by a fresh Codex
+agent using actual DOCX extraction, pypdf and openpyxl. It followed the referenced
+Annex A PDF and inspected Delivery, Assurance and Availability workbook sheets.
+No Markdown copy of the company evidence was supplied to this trial.
+
+| Field | Measured initial answer | After supplied feedback | Cap |
+| --- | --- | --- | --- |
+| Q1 | 69 whitespace words | unchanged | 75 words |
+| Q2 | 75 whitespace words | 80 words | 100 words |
+| Q3 | 268 UTF-16 code units | unchanged | 500 UTF-16 units |
+| Q4, including subheadings | 430 whitespace words | unchanged | 650 words |
+| Complete formatted response | 2 rendered pages | 2 rendered pages | 3 pages |
+
+The author independently recounted the answer-only files, rendered initial and
+revised DOCX files with isolated LibreOffice on llmbox, and inspected every page.
+Source DOCX files, the response template, all three workbook print sheets and the
+PDF annex were rendered and visually inspected too. The renderer substituted
+Liberation Sans for Arial; this does not establish identical Microsoft Word
+pagination. LibreOffice emitted a javaldx warning, but conversions succeeded and
+the resulting PDFs opened and rendered correctly. No clipping or leftover
+response placeholders were found in the completed response documents.
+
+Feedback asked for delivery month and pre-handover acceptance to be explicit.
+The agent reopened the relevant Delivery cells, preserved the original answer
+and document, revised Q2 within its cap, and saved a correction in the private
+response library without inventing an assessor score.
+
+Q3 correctly answered **Status: No** from the expired certificate record. This
+is a successful truthfulness test and an **unmet mandatory tender condition**;
+the response stayed a working draft. Staffing and start approvals also remained
+qualified. A successful assessment does not make the fictional bidder compliant.
+
+### Still not tested
+
+Lee confirmed QwenWork is available only on his work PC. The ready-to-run pack
+and prompts are supplied for that environment; **no live QwenWork test is claimed**.
+Enterprise connectors, OCR/scanned PDFs and Microsoft Word pagination remain
+untested. Runtime skill use still depends on the host's permitted document tools.
+The trial answers and source/search ledgers remain outside the public repository.
+
+## v0.1.0 initial validation — 27 October 2026
 
 Scope: initial v0.1.0 skill and optional local text counter. All company records
 used were the six fictional Markdown files in `evals/company/`. No employer,

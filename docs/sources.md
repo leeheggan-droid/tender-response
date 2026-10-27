@@ -60,6 +60,21 @@ portable file-based use for applications with other installation mechanisms.
   and its repository metadata/top-level tree inspected. No licence was reported
   by GitHub at review time; its contents were not adopted. This is a discovery
   record, not a quality assessment.
+- [benctse/rfp-skill](https://github.com/benctse/rfp-skill) was cloned and its RFP
+  workflow/scoring instructions inspected during the follow-up audit. Relevant
+  precedent: verify capabilities against current sources and resolve unknowns.
+  Its commercetools-specific integration and configuration are not adopted.
+- [serzh261/proposal-writing-skill](https://github.com/serzh261/proposal-writing-skill)
+  was cloned; its entry point, drafting, review and case-study instructions were
+  inspected. Relevant precedent: criterion-linked themes, defensible project
+  evidence and separate content/format review. Firm-specific facts and lifecycle
+  procedures are not adopted. No third-party instructions were copied.
+
+The follow-up also checked [Agent Skills authoring guidance](https://agentskills.io/skill-creation/best-practices)
+and [evaluation guidance](https://agentskills.io/skill-creation/evaluating-skills).
+The revisions reduce unconditional reading, keep one evidence record and test
+observable package/answer outcomes. The supplied-feedback procedure also reflects
+the government guide's recommendation to learn from assessor feedback.
 
 ## Build versus adopt
 

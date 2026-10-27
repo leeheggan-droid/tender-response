@@ -2,6 +2,8 @@
 
 Copy this into a private tender workspace. Fill only fields needed for this task;
 do not store completed packs in the public skill repository.
+Use this for multi-question bids or complex gaps. For a routine single answer,
+use the short receipt in SKILL.md and reuse one evidence/search ledger.
 
 ## Answer contract
 

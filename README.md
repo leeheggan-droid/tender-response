@@ -84,12 +84,22 @@ Check that it finds the current 20-working-day approach, retains the asset/acces
 dependency, cites the approved closeout, and avoids old ten-day/25%-saving claims.
 This smoke test checks your actual work application's loading and file tools.
 
+For the fuller work-PC check, use [the mixed-format assessment](evals/mixed-format/README.md).
+It supplies Word, PDF and Excel evidence, a referenced annex, separately capped
+fields, a response template with a page cap, and a feedback revision. Both the
+initial task and follow-up prompt are ready to paste into QwenWork.
+
 ## What you receive
 
 1. A clean answer in the prescribed structure and length.
-2. A separate internal review: requirement coverage, source locators, searches
-   actually performed, measured limits, evidence gaps and commitments needing
-   confirmation. Material unresolved gaps keep the response labelled as a draft.
+2. A separate four-part receipt: coverage, source locators/searches, measured
+   limits, and remaining gaps or commitments. Larger bids use one private working
+   pack; the receipt refers to existing evidence rather than repeating its tables.
+   Material unresolved gaps keep the response labelled as a draft.
+
+When you supply reviewer comments or assessor scores, the skill maps them to the
+question, re-searches evidence when needed, revises and rechecks the answer, and
+saves a reusable correction in your private response library.
 
 The method works with local documents and available company search connectors.
 Word, Excel, PDF and scanned evidence need the host application's document-reading
@@ -108,6 +118,8 @@ under `evals/company/` is fictional test material.
 - [Response playbook](references/response-playbook.md): narrative and constrained
   modes, commitments, evaluator review and count conventions.
 - [Working pack](assets/working-pack.md): private coverage/evidence/search template.
+- [Feedback loop](references/feedback.md): use review comments to improve answers
+  and the private response library with verified evidence.
 - [Worked example](examples/mobilisation.md): one brief at two response lengths.
 - [Sources and prior art](docs/sources.md): research and build/adopt decision.
 - [Evaluation scenarios](evals/scenarios.md): repeatable behavioural checks.
@@ -120,6 +132,11 @@ python scripts/check_limits.py answer.txt --max-words 250
 python scripts/check_limits.py answer.txt --max-characters 1500 --character-unit utf16
 python -m unittest discover -s tests -v
 ```
+
+The tests check required metadata fields, local linked resources, Office fixture
+archives and the counter. Full frontmatter syntax is also checked with the
+skill-creator validator during release verification; the dependency-free CI checks
+are required-field/resource checks, not a general-purpose YAML validator.
 
 The counter includes headings and whitespace, normalises line endings to LF and
 uses whitespace-separated words. The buyer's application/portal counter takes

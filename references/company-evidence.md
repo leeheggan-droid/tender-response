@@ -42,6 +42,8 @@ to originals, and search the names, record IDs and missing facts they reveal.
 When results are broad, refine by service, geography, client/project, date or
 document status. When narrow searches fail, remove a filter and vary the terms.
 Do not keep repeating an identical query. Log real queries, filters and outcomes.
+Inspect pagination, result limits and truncated extracts before concluding a search
+is complete; retrieve the relevant remaining results or record the limitation.
 
 For local text, `rg --files <authorised-folder>` inventories files and
 `rg -n -i 'transition|mobilisation|mobilization' <authorised-folder>` finds passages.
@@ -72,6 +74,8 @@ A CV does not confirm availability. A planned project is not a delivered one.
 Energy reduction is not necessarily a financial saving. A gross saving is not a
 net saving; a single project is not a portfolio-wide guarantee. Identify derived
 calculations and retain their inputs, formula and units in the evidence register.
+Preserve the strength of the source: 'no incidents recorded' supports that bounded
+statement, not proof that none occurred. Compression must retain this distinction.
 
 Prefer controlled and approved primary records for the relevant purpose. Check
 effective and expiry dates and whether later revisions supersede earlier ones.
