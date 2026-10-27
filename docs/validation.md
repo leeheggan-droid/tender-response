@@ -1,5 +1,50 @@
 # Validation record
 
+## v0.3.0 customer narrative — 27 October 2026
+
+Added an explicit prose-writing stage: friendly factual voice, a shared customer
+proposition across sections, and a concrete customer benefit for each substantive
+service/process explanation. The existing working pack now holds the message plan;
+the response playbook routes to the new guidance instead of duplicating it.
+Evidence controls, prescribed fields and limits still take priority over style.
+
+Research and interpretation are recorded in [sources](sources.md). The
+[customer narrative assessment](../evals/customer-narrative.md) provides the brief,
+limits and observable review criteria. All company data was the original six
+fictional Markdown records; this version's behavioural trials did not retest
+Office extraction or formatted page layout.
+
+### Actual execution
+
+| Trial | Observed result | Measured limit |
+| --- | --- | --- |
+| Frozen v0.2 baseline | Already produced a coherent, buyer-focused response when explicitly prompted for the desired style | 352/450 words; compact 74/75 |
+| Revised skill, fresh agent | Built a shared customer case in its private record, linked mobilisation/governance/proof to supplied objectives, and qualified recorded outcomes and staffing | 323/450 words; compact 75/75 |
+| No strategic-objective document supplied | Explained the proposed mechanism and a relevant practical decision benefit without inventing a buyer strategy or numerical target | 58/60 words |
+| Strict certification declaration | Returned only the evidence-supported prescribed field; no sales preamble or other text | Exactly `Status: No` |
+| Updated worked short example | Added the readiness-decision benefit while retaining timetable, dependency, lead, escalation, proof and staffing qualification | 66/75 words |
+
+The author independently read and recounted the saved answers. The revised
+multi-section draft used the same timetable and roles throughout, connected the
+shared register to management decisions, and limited its comparable delivery to
+the actual case. The compact draft selected bounded readiness/timing proof rather
+than inventing a performance uplift to make the offer persuasive.
+
+These small trials support practical use of the new guidance. The baseline also
+worked; no general model-quality improvement, reader engagement score or bid-win
+uplift is claimed. Writing quality still needs human judgement. The runtime code
+is unchanged; all 14 package/counter tests and skill metadata validation passed
+locally after adding the new references and examples.
+
+An independent reviewer received the original and revised samples under concealed
+version labels, plus the buyer brief and raw company sources. It found both
+complete, factual and coherent, with no material compliance defect. The revised
+sample explained escalation's practical benefit more directly; the baseline gave
+more detail on prerequisite timing. Those observations do not establish overall
+improvement. The review and trial outputs remain in the private test workspace.
+
+Live QwenWork remains available only on Lee's work PC and was not tested here.
+
 ## v0.2.0 audit follow-up — 27 October 2026
 
 The audit fixes are package checks, a shorter entry point with conditional

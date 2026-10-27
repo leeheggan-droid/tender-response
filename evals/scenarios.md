@@ -93,6 +93,9 @@ inspection and feedback revision, use [the mixed-format assessment](mixed-format
 Its task inputs are supplied as binary documents; keep evaluator expectations
 separate from the agent's prompt.
 
+For friendly factual voice, a consistent sales message and concrete customer
+benefits under long/short limits, use [the customer narrative assessment](customer-narrative.md).
+
 For each run, record date, actual model/host, skill revision, corpus, tool traces,
 answer-only output, counts, requirement coverage and observed failures. Distinguish
 manual behavioural assessment from deterministic counter tests. Do not claim a

@@ -25,6 +25,17 @@ limits. Those principles inform coverage, evidence selection and final checks.
 The actual tender's rules and scoring criteria remain authoritative for each bid;
 this is general writing practice, not jurisdiction-specific procurement advice.
 
+### Customer narrative and plain language
+
+The [Shipley theme-statement guidance](https://digital.shipleywins.com/view/320547/34/)
+links customer benefits to the offered method and supporting proof. Its
+[proposal-strategy article](https://www.shipleywins.com/blogs/proposal-strategy)
+supports coherent messages across the response. The
+[GCA language guide](https://www.gca.gov.uk/government-commercial-agency-style-guide/language)
+supports clear words and active language. We apply these through customer-first
+explanations, a shared message plan and a friendly factual voice. Benefits remain
+bounded by evidence; no ROI, guarantee or unsupported differentiator is added.
+
 APMP material was also located in search, but two candidate official PDF URLs
 returned HTTP 404 on retrieval. It is not treated as a read source or bundled.
 

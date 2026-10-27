@@ -39,6 +39,11 @@ Keep live company material and outputs outside this public skill repository.
 
 ## Draft for the question and limit
 
+Before drafting prose, read [customer narrative and creative writing](references/customer-narrative.md).
+Use a friendly, factual voice and a consistent customer case across the document.
+Connect each substantive service/process to how it supports the buyer's stated
+outcomes and business objectives: make its customer 'so what' clear.
+
 Answer directly in the required structure. Develop the mechanism, accountable
 roles, relevant proof and buyer benefit in proportion to the question and scoring.
 Load only the relevant [playbook sections](references/response-playbook.md):
@@ -50,7 +55,8 @@ incidents' does not establish that no incidents occurred. Keep material conditio
 
 ## Verify and deliver
 
-Check the original requirements, material claims and consistency across answers.
+Check the original requirements, material claims, customer benefits and consistency
+of the offer across answers.
 Measure the exact submission text using the buyer's counting convention; render
 and inspect page-limited files. The optional [counter](scripts/check_limits.py)
 checks whitespace words and explicit character units: `python scripts/check_limits.py

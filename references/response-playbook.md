@@ -15,28 +15,13 @@ descriptor is supported and which remains weak.
 
 ## Build a narrative that answers
 
-Use a connected line of reasoning: the buyer needs an outcome; the proposed
-method addresses it; accountable people and controls make the method credible;
-relevant evidence shows why it is credible; the resulting benefit matters to this
-buyer. State the answer in the opening rather than starting with company history.
-
-Develop only the parts the question calls for:
-
-- Explain actions, sequence, timing, responsibilities, interfaces and dependencies.
-- Use a short, relevant example: comparable setting, actual action, verified
-  outcome, measurement basis and why it is applicable here.
-- Explain how progress is measured, reviewed, corrected and escalated.
-- Connect differentiators to evidence and buyer benefit. Do not claim superiority
-  or uniqueness without a defensible basis or speculate about competitors.
-
-Use the buyer's headings and vocabulary naturally. Define necessary technical
-terms. Prefer specific verbs and clear transitions over adjectives such as
-'world-class'. Vary paragraph length for readability without creating a checklist
-of disconnected assertions. Do not append an executive summary to every answer.
+Apply [customer narrative and creative writing](customer-narrative.md) to the
+customer proposition, service-to-benefit reasoning, consistent themes and voice.
+Explain the actions, timing, responsibilities, interfaces and dependencies the
+question calls for; the narrative makes this delivery detail meaningful to the buyer.
 
 For a large tender pack, outline the complete response before drafting sections.
-Maintain a shared response spine: buyer priorities, supported propositions,
-delivery model and intended outcomes. Allocate any overall limit across sections
+Use the shared customer-message plan in the existing working pack. Allocate any overall limit across sections
 as well as checking field limits. Keep a common facts/roles/commitments register
 so separately drafted answers remain one coherent offer; cross-reference only
 where permitted and keep each independently scored answer complete.
@@ -57,7 +42,7 @@ case studies and repeated generic win themes across sections.
 3. Draft a compact complete answer directly; do not first generate a long essay
    when the final field is tiny. Leave reasonable counting headroom when possible.
 4. Remove generic openings, repeated benefits, duplicated proof and unnecessary
-   qualifiers. Combine related actions with their owner and control. Keep the
+   qualifiers. Combine related actions with their owner, control and customer benefit. Keep the
    conditions that make a claim true, plus the evidence that makes it credible.
 5. Recount the exact final text and recheck every requirement after editing.
 
@@ -99,7 +84,8 @@ Perform a separate critical pass over the exact answer:
 | Responsiveness | A direct answer tied to the buyer's actual scope and outcomes |
 | Credibility | Traceable evidence, valid comparisons, dates, units and qualifications |
 | Delivery | A workable mechanism and accountable role where requested |
-| Narrative | A clear connection from need to method, evidence and buyer value |
+| Narrative | A concrete customer 'so what' for each substantive service/process; method and proof tied to stated objectives |
+| Voice and message | Friendly factual prose; consistent customer case without repeated slogans or invented benefits |
 | Compliance | Correct structure, count, file type, attachments and page layout |
 | Consistency | Matching roles, timelines, figures and commitments across all answers |
 

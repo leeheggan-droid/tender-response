@@ -15,7 +15,9 @@ public skill automatically.
 3. For an evidence issue, actively re-search the permitted company sources using
    [the search method](company-evidence.md). Inspect underlying records and update
    the existing ledger. For a writing issue, revise the affected passage using
-   existing proof; retain required scope, qualifications and commitments.
+   existing proof; retain required scope, qualifications and commitments. For weak
+   narrative or generic benefits, apply [customer narrative](customer-narrative.md),
+   then check that the revised message remains consistent across affected sections.
 4. Check the revised answer against the original question, evidence and exact
    limits. Record the before/after passage and concrete check. A second reviewer
    can assess the revised answer when available; identify self-review honestly.

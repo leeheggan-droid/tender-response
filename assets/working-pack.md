@@ -14,6 +14,16 @@ use the short receipt in SKILL.md and reuse one evidence/search ledger.
 - Source instructions and clarifications; unresolved conflicts:
 - Permitted company sources and private output location:
 
+## Customer message — multi-section bids
+
+- Central customer proposition, with its evidence boundary:
+
+| Buyer objective and source | Theme/reason to choose | Method/service and evidence IDs | Customer 'so what' | Qualification | Sections developing the theme |
+| --- | --- | --- | --- | --- | --- |
+
+Use a few relevant themes, not a separate sales plan for every sentence. For one
+short answer, keep the main idea in the existing notes instead of filling a table.
+
 ## Requirements and coverage
 
 | Requirement ID | Exact requirement | Mandatory/scored and published weight | Evidence IDs | Answer location | Covered/partial/unresolved |

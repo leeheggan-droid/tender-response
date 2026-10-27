@@ -4,6 +4,11 @@ A portable AI skill for clear, complete, evidence-backed tender answers: long
 narratives, short prescribed answers, and strict word, character or page limits.
 Designed for QwenWork and other agents that can read `SKILL.md`.
 
+It also shapes a friendly, factual narrative with a consistent customer case
+throughout the document. Each substantive service or process explains its
+customer 'so what': how the method supports the buyer's stated outcomes and
+business objectives, backed by evidence or clearly identified reasoning.
+
 **It searches accessible company documents before drafting or flagging gaps.**
 It checks source context and currency, maps each question to an answer, and keeps
 unsupported claims and unapproved commitments out of purported final responses.
@@ -117,12 +122,16 @@ under `evals/company/` is fictional test material.
   source checks, conflicts and bounded gap resolution.
 - [Response playbook](references/response-playbook.md): narrative and constrained
   modes, commitments, evaluator review and count conventions.
+- [Customer narrative and creative writing](references/customer-narrative.md):
+  customer outcomes, a consistent sales message, natural voice and service benefits.
 - [Working pack](assets/working-pack.md): private coverage/evidence/search template.
 - [Feedback loop](references/feedback.md): use review comments to improve answers
   and the private response library with verified evidence.
 - [Worked example](examples/mobilisation.md): one brief at two response lengths.
 - [Sources and prior art](docs/sources.md): research and build/adopt decision.
 - [Evaluation scenarios](evals/scenarios.md): repeatable behavioural checks.
+- [Customer narrative assessment](evals/customer-narrative.md): multi-section and
+  75-word writing checks, including an unspecified-objectives variation.
 - [Validation record](docs/validation.md): what was actually tested and limitations.
 
 Optional, dependency-free helper (Python 3.10+):
